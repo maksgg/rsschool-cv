@@ -1,0 +1,22 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+ 
+}
+img {
+  width: 100%;
+}
+h1 {
+  margin: 0;
+}
