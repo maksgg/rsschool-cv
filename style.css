@@ -9,7 +9,6 @@ main {
   align-items: center;
   justify-content: space-around;
   background-color: rgb(247, 247, 247);
-  margin: 0 auto;
 }
 header {
   width: 1200px;
@@ -22,7 +21,6 @@ header {
 footer {
   width: 1200px;
   background-color: rgb(247, 247, 247);
-  margin: 0 auto;
 }
 .avatar {
   width: 250px;
