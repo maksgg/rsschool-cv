@@ -3,10 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-  <h1>This is a Heading</h1>
-  <p>This is a paragraph.</p>
+  <header>
+    <div class="avatar">
+      <img src="./photo_2024-07-06_13-24-25.jpg" alt="Photo" >
+    </div>
+    <div>
+      <h1>Maksym Zhovmir</h1>
+      <h2>Front-end Developer</h2>
+    </div>
+  </header>
+  <main>
+    <div class="left-side">
+      <section class="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li><a href="https://www.instagram.com/m.a.k.s_ua/">Instagram (m.a.k.s_ua)</a></li>
+          <li><a href="https://github.com/maksgg">Github (maksgg)</a></li>
+          <li><a href="mailto:maks.zhovmir.97@gmail.com">maks.zhovmir.97@gmail.com</a></li>
+        </ul>
+      </section>
+      <section class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Vinnytsia National Agrarian University (bachelor's degree)
+            <br>
+            <span>2015 - 2019</span>
+          </li>
+          <li>Vinnytsia National Agrarian University (master's degree)
+            <br>
+            <span>2019 - 2020</span>
+          </li>
+        </ul>
+      </section>
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JS basic</li>
+          <li>Git&Github</li>
+        </ul>
+      </section>
+      <section class="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>English(B1)</li>
+          <li>Ukrainian (native)</li>
+        </ul>
+      </section>
+    </div>
+    <div class="right-side">
+      <section class="about">
+        <h2>About me</h2>
+        <p>My goal is to become a great programmer to help people solve 
+          their problems with this craft. My work experience is the position of a sales 
+          manager in the agricultural sector and a fishing store, which gave me such skills 
+          as communication, stress resistance and the ability to properly plan my time. 
+          I constantly strive to deepen my knowledge.</p>
+      </section>
+      <section class="work-exp">
+        <h2>Work Experience</h2>
+        <h3>Sales manager (04.10.2018 - 08.25.2022)</h3>
+        <p>Responsibilities included finding new and supporting existing clients. 
+          Support in technologies for growing agricultural crops</p>
+      </section>
+      <section class="work-exp">
+        <h3>Front-end Developer (00.10.2022 - 09.09.2023)</h3>
+        <p>Project work. Website development on WordPress based on the Elementor constructor. 
+          In addition, a large amount of work was carried out on manual customization of sites according 
+          to the design layout, namely: additional css-styles, adaptive version. For online stores, the 
+          Woocommerce plugin was used, for some tasks it was necessary to find solutions and hooks that 
+          were not supported in the standard version of this plugin.</p>
+      </section>
+      <section class="work-exp"> 
+        <h3>Freelancer (from 10.10.2023)</h3>
+        <h4>Such projects as:</h4>
+        <ul>
+          <li><a href="https://665ed1a76ca68ee378c4992d--stalwart-muffin-5e4a1c.netlify.app/">AI website</a></li>
+          <li><a href="https://66128969b16054aaad603ec9--warm-praline-f31b0c.netlify.app/">House apartments website</a></li>
+        </ul>
+      </section>
+      <section class="code-example">
+        <h2>Code example</h2>
+        <pre>
+          class Node {
+            constructor(data, left = null, right = null) {
+              this.data = data;
+              this.left = left;
+              this.right = right;
+            }
+          }
+        </pre>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="https://github.com/maksgg">My Github</a></li>
+        <li>2024</li>
+        <li><a href="https://rs.school/courses/javascript"><img src="./rs-school-logo.svg" alt="Logo" class="logo"></a></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>
